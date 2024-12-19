@@ -1,3 +1,4 @@
+import { ImageSlider } from "@/components/image-slider";
 import { serverSideFunction } from "@/utils/server-utils";
 import React from "react";
 
@@ -9,6 +10,7 @@ export default function ServerRoute() {
     <div>
       <h1>ServerRoute</h1>
       <p>{result}</p>
+      <ImageSlider />
     </div>
   );
 }
